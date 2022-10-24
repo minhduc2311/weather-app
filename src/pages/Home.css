@@ -1,0 +1,28 @@
+.tab-titles {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+  }
+  
+  .hourly-title {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  .daily-button {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    color: #CE7E00;
+  }
+  
+  
+  .button-icon {
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,28 @@
+.daily-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    overflow-y: scroll;
+}
+
+.day {
+min-width: 6rem;
+text-align: left;
+}
+
+.daily-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    border: 0.5px solid rgba(255, 255, 255, 0.36);
+    background: rgba(255, 255, 255, 0.36);
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+
+}
+
+.daily-icon {
+    width: 10%;
+    height: auto;
+}

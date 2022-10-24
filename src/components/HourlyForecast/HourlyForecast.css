@@ -1,0 +1,28 @@
+.hourly-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    overflow-x: scroll;
+  }
+
+  .hourly-container::-webkit-scrollbar {
+    display: none;
+}
+
+.hourly-item {
+    width: 15%;
+    border-radius: 25px;
+    border: 0.5px solid rgba(255, 255, 255, 0.36);
+    background: rgba(255, 255, 255, 0.36);
+    padding: 0.7rem 0.4rem;
+}
+
+.hourly-icon {
+    width: 70%;
+    height: auto;
+    margin: 0.5rem auto;
+}
+
